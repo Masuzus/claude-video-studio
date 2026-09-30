@@ -1,0 +1,10 @@
+{
+  "name": "claude-video-studio-tools",
+  "private": true,
+  "type": "module",
+  "description": "Render tools for claude-video-studio. npm install here once on the machine that renders.",
+  "dependencies": {
+    "puppeteer-core": "^25.11.0",
+    "ffmpeg-static": "^5.2.0"
+  }
+}

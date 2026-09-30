@@ -1,0 +1,17 @@
+{
+  "duration": 8,
+  "reverb": { "mix": 0.45, "decay": 1.9 },
+  "fade_out": 0.6,
+  "cues": [
+    { "type": "whoosh", "start": 0.0, "end": 1.2, "f0": 200, "f1": 1300, "gain": 0.5 },
+    { "type": "tink", "at": 1.2, "freq": 2637, "gain": 0.12, "pan": 0.25 },
+    { "type": "drone", "start": 0.8, "end": 8, "freqs": [55, 55.4, 82.4, 110.2, 164.8], "gain": 0.22, "attack": 1.5 },
+    { "type": "bed", "start": 1.0, "end": 8, "cutoff": 500, "gain": 0.35 },
+    { "type": "heartbeat", "start": 1.2, "end": 6.1, "period": 0.9, "gain": 0.9 },
+    { "type": "heartbeat", "start": 6.6, "end": 8, "period": 0.9, "gain": 0.4 },
+    { "type": "riser", "start": 4.6, "end": 6.15, "f0": 300, "f1": 2400, "gain": 0.35 },
+    { "type": "glide", "start": 4.6, "end": 6.3, "f0": 110, "f1": 220, "gain": 0.08 },
+    { "type": "boom", "at": 6.15, "freq": 38, "gain": 0.9 },
+    { "type": "bell", "at": 6.15, "notes": [440, 659.3, 987.8, 1318.5, 1760, 2217], "gain": 0.05, "pan": -0.1 }
+  ]
+}
